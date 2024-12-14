@@ -1,0 +1,176 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body styling */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #0a1f44;
+    color: #ffffff;
+  }
+  
+  /* Navbar */
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+  }
+  
+  header .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffffff;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+  }
+  
+  nav ul li {
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  .contact-button {
+    background-color: #00e5ff;
+    color: #0a1f44;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Hero Section */
+  .hero {
+    text-align: center;
+    padding: 100px 0;
+    background-color: #0c254a;
+  }
+  
+  .hero h1 {
+    font-size: 36px;
+    font-weight: bold;
+  }
+  
+  .hero p {
+    font-size: 18px;
+    margin: 20px 0;
+  }
+  
+  .buttons .primary-button {
+    background-color: #00e5ff;
+    color: #0a1f44;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  .buttons .secondary-button {
+    background-color: #1f3b63;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Partners Section */
+  .partners {
+    text-align: center;
+    padding: 50px 0;
+  }
+  
+  .partners h2 {
+    color: #00e5ff;
+    font-size: 18px;
+  }
+  
+  .partner-logos {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 20px;
+  }
+  
+  .logo-placeholder {
+    width: 80px;
+    height: 80px;
+    background-color: #1f3b63;
+    border-radius: 8px;
+  }
+  
+  /* Who We Are Section */
+  .who-we-are {
+    background-color: #0c254a;
+    padding: 50px 10%;
+    text-align: left;
+  }
+  
+  .who-we-are h3 {
+    color: #00e5ff;
+  }
+  
+  .who-we-are h2 {
+    font-size: 24px;
+    margin-top: 10px;
+  }
+  
+  .who-we-are p {
+    margin: 20px 0;
+  }
+  
+  .who-we-are ul {
+    list-style: none;
+  }
+  
+  .who-we-are ul li::before {
+    content: "•";
+    color: #00e5ff;
+    margin-right: 10px;
+  }
+  
+  /* Services Section */
+  .services {
+    text-align: center;
+    padding: 50px 10%;
+  }
+  
+  .services h3 {
+    color: #00e5ff;
+  }
+  
+  .service-cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px 0;
+  }
+  
+  .card {
+    width: 150px;
+    padding: 20px;
+    background-color: #1f3b63;
+    border-radius: 8px;
+  }
+  
+  .primary-button {
+    background-color: #00e5ff;
+    color: #0a1f44;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  

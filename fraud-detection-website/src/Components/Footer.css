@@ -1,0 +1,63 @@
+/* Footer Styling */
+.footer {
+    background-color: #0c254a;
+    padding: 40px 10%;
+    color: #ffffff;
+    font-family: "Playwrite FR Moderne", cursive;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .footer-section {
+    flex: 1;
+    margin: 10px;
+  }
+  
+  .footer-section h3, .footer-section h4 {
+    color: #00e5ff;
+  }
+  
+  .footer-section p, .footer-section ul {
+    color: #d1d1d1;
+    font-family: "Afacad Flux", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
+    font-size: large;
+  }
+  
+  .footer-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-section ul li {
+    margin-bottom: 10px;
+  }
+  
+  .footer-section ul li a {
+    color: #d1d1d1;
+    text-decoration: none;
+  }
+  
+  .footer-section ul li a:hover {
+    color: #00e5ff;
+  }
+  
+  .footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    border-top: 1px solid #1f3b63;
+    padding-top: 10px;
+    color: #d1d1d1;
+  }
+  
